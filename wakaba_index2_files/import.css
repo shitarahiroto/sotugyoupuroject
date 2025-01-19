@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+/************************************************
+ import css
+************************************************ */
+
+/*�X�N���[���p*/
+@import url("./scrolllabs.css");
+@import url("./scrollupimg.css");
+@import url("./jquery.mCustomScrollbar.css");
+

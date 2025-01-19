@@ -1,0 +1,13 @@
+$(function () {
+    $.scrollUp({
+        scrollName: 'scrollUp', // エレメントのid
+        topDistance: '300', // scrollUpを表示するトップからの距離 (px)
+        topSpeed: 300, // トップに戻るスピード (ms)
+        animation: 'fade', // アニメーションの種類 (Fade, slide, none)
+        animationInSpeed: 200, // アニメーションの最初のスピード (ms)
+        animationOutSpeed: 200, // アニメーションの最後のスピード (ms)
+        scrollText: 'Scroll to top', // エレメントに表示するテキスト
+        activeOverlay: false, // scrollUp動作時のオーバーレイのカラー, e.g '#00FFFF'
+    });
+ 
+});
